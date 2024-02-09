@@ -1,0 +1,13 @@
+.option {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  padding: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 18px;
+  }
+}

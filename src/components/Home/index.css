@@ -1,0 +1,98 @@
+.home_bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.first_bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_h1 {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .home_h1 {
+    font-size: 26px;
+  }
+}
+
+.home_par {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .home_par {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  background-color: #2563eb;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
+
+.second_bg {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.meetup_img {
+  width: 80%;
+  margin: 5px;
+}
+
+.hello {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  color: #3b82f6;
+}
+
+@media screen and (min-width: 768px) {
+  .hello {
+    font-size: 32px;
+  }
+}
+
+.topic {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .topic {
+    font-size: 26px;
+  }
+}
